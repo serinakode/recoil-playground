@@ -9,8 +9,8 @@ ReactDOM.render(
   <React.StrictMode>
     <>
       <AppWithRedux />
-        {/*<AppWithContext/>*/}
-        {/*<AppWithRecoil/>*/}
+        <AppWithContext/>
+        <AppWithRecoil/>
       </>
   </React.StrictMode>,
   document.getElementById('root')
