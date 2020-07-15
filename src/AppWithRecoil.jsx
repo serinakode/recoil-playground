@@ -11,9 +11,7 @@ function AppWithRecoil() {
   const [qnaState, setQnaState] = useRecoilState(Qna)
   return (
     <div>
-      <h1>
-        Welcome to the App with Recoil: {qnaState}
-      </h1>
+      <h1>Recoil app: {qnaState}</h1>
       <button onClick={() => setQnaState('Friday before the AFL Grand Final 🤔')}>View Answer</button>
     </div>
   );

@@ -26,7 +26,7 @@ const mapDispatchToProps = (dispatch) => ({
 function AppWithRedux(props) {
   return (
     <div>
-      <h1>Welcome to the APP with redux :{props.question}</h1>
+      <h1>Redux app: {props.question}</h1>
       <button onClick={() => props.showAnswer('Your age 😨')}>View Answer</button>
     </div>
   )
@@ -41,4 +41,3 @@ export default function () {
     </Provider>
   )
 }
-
